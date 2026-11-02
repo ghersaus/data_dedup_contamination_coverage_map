@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ghersaus-compress_jd069"
+name = "ghersaus-data_dedup_contamination_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出模型压缩工程师·数据去重与污染检测的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://ghersaus.github.io"
-Repository = "https://github.com/ghersaus/compress_jd069"
-Issues = "https://github.com/ghersaus/compress_jd069/issues"
+Repository = "https://github.com/ghersaus/data_dedup_contamination_coverage_map"
+Issues = "https://github.com/ghersaus/data_dedup_contamination_coverage_map/issues"
 
 [project.scripts]
-compress_jd069 = "compress_jd069:main"
+data_dedup_contamination_coverage_map = "data_dedup_contamination_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["compress_jd069"]
+py-modules = ["data_dedup_contamination_coverage_map"]
